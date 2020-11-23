@@ -1,0 +1,5 @@
+for i = 1:100 
+    LightBumpLeftSignalStrengthRoomba(serPort)
+    pause(0.1)
+    LightBumpFrontLeftSignalStrengthRoomba(serPort)
+end
